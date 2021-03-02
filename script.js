@@ -29,6 +29,7 @@ function populateCityWeather(city, citySearchList) {
     "https://api.openweathermap.org/data/2.5/forecast?&units=imperial&appid=885e9149105e8901c9809ac018ce8658&q=" +
     city;
 
+ var queryURL4 = "pro.openweathermap.org/data/2.5/forecast/hourly?id=524901&appid={API key}"
   var latitude;
 
   var longitude;
